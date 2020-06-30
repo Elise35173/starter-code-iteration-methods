@@ -82,3 +82,4 @@ const ageOfFugiat = users
     .filter(user => user.tags.includes('fugiat'))
     .map(user => user.age)
 main.append(JSON.stringify(ageOfFugiat))
+console.log(ageOfFugiat)
